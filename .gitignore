@@ -1,0 +1,11 @@
+# created by virtualenv automatically
+/.idea
+/etc
+/include
+/Lib
+/Scripts
+/share
+client_secret_483785681501.json
+pyvenv.cfg
+token.json
+youtube-stat-367815-9208f10cec8b.json
