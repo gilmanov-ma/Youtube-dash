@@ -18,10 +18,10 @@ import dash_bootstrap_components as dbc
 import datetime as dt
 
 def get_basic_info():
-    API_KEY = 'AIzaSyAxfII0tgeA4QMF0NlTGQGPU0An_h_eqTQ'
+    API_KEY = 'YOUR API'
     api_service_name = "youtube"
     api_version = "v3"
-    channelId = "UCBC5Nwxcp1f8-bEdPOK53ug"
+    channelId = "YOUR CHANNEL"
     service = googleapiclient.discovery.build(api_service_name, api_version, developerKey=API_KEY)
     response_items = service.search().list(
         channelId=channelId,
